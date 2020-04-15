@@ -1,0 +1,487 @@
+* {
+    font-family: 'Be Vietnam', sans-serif;
+}
+body {
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    font-size: large;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    float: left;
+    background-color: #4CAF50;
+}
+input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 17px;
+}
+.log {
+    float: right;
+}
+.panier {
+    float: right;
+}
+
+.nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: center;
+    top: 0;
+    opacity: 80%;
+    font-size: large;
+}
+.nav20 {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    border-top: 1px solid #ddd;
+}
+.logout {
+    float: right;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-left: 1px solid #bbb;
+    border-top: 1px solid #ddd;
+    font-size: large;
+}
+em{
+    vertical-align: middle;
+    font-style: normal;
+}
+#basket {
+    color: white;
+    opacity: 1;
+    background-color: #545454;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px ;
+    width: auto;
+    display: inline-block;
+    text-decoration : none;
+    text-align: center;
+    width:20%;
+    min-width : 120px;
+    flex-wrap: nowrap;
+}
+.header {
+    min-width : 583px;
+}
+#site_name {
+    color: white;
+    opacity: 1;
+    background-color: #545454;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px ;
+    width: auto;
+    display: inline-block;
+    text-decoration : none;
+    text-align: center;
+    width: 20%;
+    min-width : 120px;
+    flex-wrap: nowrap;
+}
+
+#my_account {
+    color: white;
+    opacity: 1;
+    background-color: #545454;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px ;
+    width: auto;
+    display: inline-block;
+    text-decoration : none;
+    text-align: center;
+    width:20%;
+    min-width : 120px;
+    flex-wrap: nowrap;
+}
+
+#tablet_0{
+    margin-top: 10%;
+}
+
+#pc_0{
+    margin-top: 40%;
+    width: 255px;
+}
+
+#office_0{
+    margin-top: 20%;
+
+}
+#ps4_0{
+    margin-top: 30%;
+    width: 230px;
+}
+a.bouton {
+    padding: 10px 30px;
+    background: #50CBBB;
+    color: #000000;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+}
+
+a.bouton:hover {
+    background-color: #b8c2cc;
+}
+
+.div_footer{
+    width: 100%;
+    list-style-type: none;
+    background-color: #333;
+}
+.footerbf {
+    display: inline;
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+}
+
+.footertw {
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.footerinst {
+    float: right;
+    padding: 20px;
+}
+
+.div_up {
+    background-color: #4CAF50;
+    box-shadow: 1.5px 1.5px 4px 2.5px #5d5d5d;
+    border-radius: 4px;
+}
+.div_up:hover {
+    background-color: #45a049;
+}
+
+.div_down{
+    font-size: large;
+}
+
+.div{
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: auto;
+    border-radius: 5px ;
+    width: 250px;
+    display: block;
+    height: 400px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color:#f5f5f5;
+}
+
+.main {
+    width: 1200px;
+    font-size: medium;
+}
+
+.main .image {
+    float: left;
+}
+
+.main .produit {
+    float: right;
+    width: 550px;
+    color : white;
+}
+
+.registration {
+    color: white;
+    opacity: 0.9;
+    background-color: #545454;
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 12px;
+    margin-bottom: auto;
+    border-radius: 5px ;
+    display: block;
+    height: 40px;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+
+}
+
+h1 {
+    font-size: large;
+    color: white;
+    margin-top: 12px;
+}
+
+nav {
+    background-color : #646B6A;
+    text-align: center;
+    border: 1px solid black;
+    top: 45px;
+    margin: auto;
+    width: 90%;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+}
+
+#m15 {
+    height: 100%;
+}
+
+article {
+    display: inline-block;
+    width: 300px;
+    margin-left:20px;
+    margin-right:20px;
+    padding:15px;
+    flex-wrap: nowrap;
+}
+
+.sec {
+    min-width : 1500px;
+}
+
+#section_my_account {
+    margin-top: 15%;
+}
+
+#div_my_account {
+    color: white;
+    opacity: 1;
+    background-color: #545454;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 30px;
+    border-radius: 5px ;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+.main-content .sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    overflow: auto;
+}
+
+.main-content .sidebar li  {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.main-content .sidebar li  {
+    background-color: #545454;
+    color: white;
+}
+.main-content .content h2 {
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+}
+
+.formulaire {
+    display: inline-block;
+    text-align: center;
+}
+
+.ci[type=text] {
+    width: 94%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1.5px 1.5px 4px 2.5px #888888;
+}
+
+.ci[type=submit] {
+    width: 94%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 4px 2.5px #888888;
+}
+
+.ci[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.ci[type=file] {
+    width: 102%;
+    padding: 14px 24px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 1.5px 1.5px 4px 2.5px #888888;
+}
+
+.diva {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 520px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email {
+    width: 90%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1.5px 1.5px 4px 2.5px #888888;
+}
+.card-body {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 32%;
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.password[type=password] {
+    width: 90%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1.5px 1.5px 4px 2.5px #888888;
+}
+.card-header {
+    text-align: center;
+}
+.btn-btn-primary {
+    width: 98%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 4px 2.5px #888888;
+    font-size: medium;
+}
+.btn-btn-primary:hover {
+    background-color: #45a049;
+}
+#td {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+#navbar {
+    display: inline-block;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dropdown:hover > #cart-dropdown{
+    display: block;
+}
+

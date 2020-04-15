@@ -1,0 +1,196 @@
+#map {
+    position: relative;
+    padding: 0;
+    max-width: 700px;
+    max-height: 400px;
+    min-width: 350px;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#form {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    box-shadow: 0 8px 2px -2px gray;
+    vertical-align: middle;
+}
+
+#siviewlogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url(../../public/backgroundimg.jpg);
+    background-attachment: fixed;
+    display: grid;
+    font-family: Roboto;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Inputs */
+input {
+    font-family: "Verdana", sans-serif !important;
+}
+label {
+    font-family: "Verdana", sans-serif !important;
+}
+.inp {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 280px;
+}
+
+.inp .label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-size: 16px;
+    color: #9098a9;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transition: all 0.2s ease;
+}
+
+.inp .border {
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #07f;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    transition: all 0.15s ease;
+}
+
+.inp input {
+    -webkit-appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    margin: 10px 0;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #c8ccd4;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all 0.15s ease;
+}
+
+.inp input:hover {
+    background: rgba(34,50,84,0.03);
+}
+
+.inp input:not(:placeholder-shown) + span {
+    color: #5a667f;
+    transform: translateY(-36px) scale(1);
+}
+
+.inp input:focus {
+    background: none;
+    outline: none;
+}
+
+.inp input:focus + span {
+    color: #07f;
+    transform: translateY(-36px) scale(1);
+}
+
+.inp input:focus + span + .border {
+    transform: scaleX(1);
+}
+
+/* Buttons */
+
+.btn {
+    outline-style:none;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #1abc9c;
+    border-radius: 0.6em;
+    color: #1abc9c;
+    cursor: pointer;
+    display: inline-block;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover {
+    -webkit-appearance: none;
+    color: white;
+    outline: 0;
+  }
+  
+  .first {
+    min-width: 150px;
+    max-width: 100%;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #1abc9c inset;
+  }
+  
+
+  /* Barre de recherche */
+
+  .suges {
+    cursor:pointer;
+    background-color: #8daff7;
+    margin: 0;
+    padding: 10px 0px;
+    list-style: none;
+    text-align: left;
+  }
+
+  .sugdel {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+  }
+  .z-10 {
+      z-index: 10;
+  }
+
+  .fixed {
+      position: fixed;
+  }
+  .relative {
+      position: relative;
+  }

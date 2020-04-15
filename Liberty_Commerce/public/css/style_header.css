@@ -1,0 +1,133 @@
+.log {
+    float: right;
+}
+.panier {
+    float: right;
+}
+
+.nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: center;
+    top: 0;
+    opacity: 80%;
+    font-size: large;
+}
+.nav20 {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    border-top: 1px solid #ddd;
+}
+.logout {
+    float: right;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-left: 1px solid #bbb;
+    border-top: 1px solid #ddd;
+    font-size: large;
+}
+em{
+    vertical-align: middle;
+    font-style: normal;
+}
+#basket {
+    color: white;
+    opacity: 1;
+    background-color: #545454;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px ;
+    width: auto;
+    display: inline-block;
+    text-decoration : none;
+    text-align: center;
+    width:20%;
+    min-width : 120px;
+    flex-wrap: nowrap;
+}
+.header {
+    min-width : 583px;
+}
+#site_name {
+    color: white;
+    opacity: 1;
+    background-color: #545454;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px ;
+    width: auto;
+    display: inline-block;
+    text-decoration : none;
+    text-align: center;
+    width: 20%;
+    min-width : 120px;
+    flex-wrap: nowrap;
+}
+
+#my_account {
+    color: white;
+    opacity: 1;
+    background-color: #545454;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px ;
+    width: auto;
+    display: inline-block;
+    text-decoration : none;
+    text-align: center;
+    width:20%;
+    min-width : 120px;
+    flex-wrap: nowrap;
+}
+#tablet_0{
+    margin-top: 10%;
+}
+
+#pc_0{
+    margin-top: 40%;
+    width: 255px;
+}
+
+#office_0{
+    margin-top: 20%;
+
+}
+#ps4_0{
+    margin-top: 30%;
+    width: 230px;
+}
+a.bouton {
+    padding: 10px 30px;
+    background: #50CBBB;
+    color: #000000;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    border: 2px solid black;
+}
+
+a.bouton:hover {
+    background-color: #b8c2cc;
+}
+nav {
+    background-color : #646B6A;
+    text-align: center;
+    border: 1px solid black;
+    top: 45px;
+    margin: auto;
+    width: 90%;
+}
